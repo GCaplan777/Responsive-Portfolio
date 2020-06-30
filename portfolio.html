@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -13,11 +13,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </head>
+
   <body>
-        <!-- nav bar  -->
+    <!-- nav bar  -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- inserted logo  -->
-      <a class="navbar-brand" href="#"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p720x720/19467633_734863626697973_344202083783773719_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=WYsgm-eSKsIAX-uD9sd&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=bdbd8068b5a801c028f99d0ccb07ee3c&oe=5F1FFB5B" alt="logo" class="img-thumbnail" style="width:50px;height:60px; padding:0%;"></a>
+      <!-- inserted logo  -->
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/p720x720/19467633_734863626697973_344202083783773719_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=WYsgm-eSKsIAX-uD9sd&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=bdbd8068b5a801c028f99d0ccb07ee3c&oe=5F1FFB5B"
+          alt="logo"
+          class="img-thumbnail"
+          style="width: 50px; height: 60px; padding: 0%;"
+        >
+      </a>
+      
       <button
         class="navbar-toggler"
         type="button"
@@ -40,78 +49,144 @@
         </ul>
       </div>
     </nav>
-   
-    <!-- keep the above jumbotron and nav bar  -->
-    <div class="container" style="margin-top: 30px;">
+
+    <div class="container">
+      <!-- header  -->
       <div class="row">
-        <div class="col-sm-6">
-          <h2>Portfolio</h2>
-          <!-- example 1  -->
-          <h5>Product, Web, Art Content</h5>
+        <div class="col-md-12">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+
+      <!-- 4 examples from portfolio  -->
+
+      <div class="row">
+        <div class="col-md">
+          <h2>Product, Web, Art Content</h2>
           <div class="portfolio1">
             <img
               src="https://logo.cafepress.com/5/12629997.5477155.jpg"
-              width="500"
+              width="400"
               height="auto"
             />
-          
-          <p>
-            Remember CafePress?
-            <a href="https://www.cafepress.com/soypolitico/"
-              >Here is my store link.</a
-            >
-          </p>
-          <p>
-            CafePress was a fantastic intro to web design. A step up from customizing myspace, with my cafepress store, I created a product, practised basic photoshop, and wrote out web content. My friend,
-            <a href="http://www.jadafab.com/index.html">Jada Fabrizio</a>
-            implemented the tshirt designs and Mother's Day imagery. We had fun!
-          </p>
-          <br />
-          <!-- example 2 -->
 
-          <h5>PreWork to Coding Bootcamp</h5>
-          <div class="portfolio2">
-            <img
-              src="Assets/my images/fanpage html practice.jpg"
-              alt="Pointer Sisters Fanpage"
-              width="500"
-              height="auto"
-            />
-            <p>Still from my <a href="https://en.wikipedia.org/wiki/The_Pointer_Sisters">Pointer Sisters</a> Fanpage</p>
             <p>
-              What can I say? I love music. With the recent passing of <a href="https://en.wikipedia.org/wiki/Ruth_Pointer">Ruth Pointer</a> and the assignment to practice basic html with a favorite band in mind, how could I resist? This is a fanpage assignment from the Prework leading up to my current training in Coding Bootcamp. 
+              Remember CafePress?
+              <a href="https://www.cafepress.com/soypolitico/"
+                >Here is my store link.</a
+              >
+            </p>
+            <p>
+              CafePress was a fantastic intro to web design. A step up from
+              customizing myspace, with my cafepress store, I created a product,
+              practised basic photoshop, and wrote out web content. My friend,
+              <a href="http://www.jadafab.com/index.html">Jada Fabrizio</a>
+              implemented the tshirt designs and Mother's Day imagery. We had
+              fun!
             </p>
           </div>
         </div>
-        
-      </div class=row>
+          <!-- end of col 1  -->
 
-      <div class="row">
-        <div class="col-sm-6">
-            <!-- example 3 -->
+          <!-- example 2 -->
+          <div class="col-md">
+            <h2>PreWork to Coding Bootcamp</h2>
+            <div class="portfolio2">
+              <img
+                src="Assets/my images/fanpage html practice.jpg"
+                alt="Pointer Sisters Fanpage"
+                width="400"
+                height="auto"
+              />
+              <p>
+                Still from my
+                <a href="https://en.wikipedia.org/wiki/The_Pointer_Sisters"
+                  >Pointer Sisters</a
+                >
+                Fanpage
+              </p>
+              <p>
+                What can I say? I love music. With the recent passing of
+                <a href="https://en.wikipedia.org/wiki/Ruth_Pointer"
+                  >Ruth Pointer</a
+                >
+                and the assignment to practice basic html with a favorite band
+                in mind, how could I resist? This is a fanpage assignment from
+                the Prework leading up to my current training in Coding
+                Bootcamp.
+              </p>
+            </div>
+          </div>
+          <!-- end of col 2  -->
+
+          <!-- division for boostrap Equal-width multi-line  -->
+          <div class="w-100"></div>
+          <!-- division for boostrap Equal-width multi-line  -->
+
+          <!-- example 3 -->
+          <div class="col-md">
             <h5>Music Performance</h5>
             <div class="portfolio3"></div>
-            <iframe width="500" height="315" src="https://www.youtube.com/embed/gXr3hGp2OZo?start=567" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Performing with <a href="https://en.wikipedia.org/wiki/Naomi_Shelton_%26_the_Gospel_Queens">Naomi Shelton and the  Gospel Queens</a> </p>
+            <iframe
+              width="400"
+              height="315"
+              src="https://www.youtube.com/embed/gXr3hGp2OZo?start=567"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <p>
-              I've been blessed to play guitar for some wonderful groups, including Naomi Shelton & the Gospel Queens, and <a href="https://www.facebook.com/FredThomasoftheJBs/">Fred Thomas of the J.B.s</a>, James Brown's bassist over 36 years. I hope my aesthetic as a musician and writer, recording engineer finds its way into webdesign; in all my endeavors, I like to find the main thread of the story and serve it in form and content.
+              Performing with
+              <a
+                href="https://en.wikipedia.org/wiki/Naomi_Shelton_%26_the_Gospel_Queens"
+                >Naomi Shelton and the Gospel Queens</a
+              >
             </p>
-        
-      
-            <br />
-        
-            <!-- example 4 -->
-            <h5>Music Performance-My Group</h5>
-            <div class="portfolio4"></div>
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fthepushandpull%2Fvideos%2F514648842820107%2F&show_text=0&width=560" width="500" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-            <p>Performing with <a href="https://www.facebook.com/thepushandpull">The Push and Pull</a> </p>
             <p>
-            I like to get down.
+              I've been blessed to play guitar for some wonderful groups,
+              including Naomi Shelton & the Gospel Queens, and
+              <a href="https://www.facebook.com/FredThomasoftheJBs/"
+                >Fred Thomas of the J.B.s</a
+              >, James Brown's bassist over 36 years. I hope my aesthetic as a
+              musician and writer, recording engineer finds its way into
+              webdesign; in all my endeavors, I like to find the main thread of
+              the story and serve it in form and content.
             </p>
           </div>
-      </div class="row">
-    </div>
+          <!-- end of col 3 -->
 
+          <!-- example 4 -->
+
+          <div class="col-md">
+            <h5>Music Performance-My Group</h5>
+            <div class="portfolio4">
+              <iframe
+                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fthepushandpull%2Fvideos%2F514648842820107%2F&show_text=0&width=560"
+                width="400"
+                height="315"
+                style="border: none; overflow: hidden; padding-top: 50px;
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allowfullscreen="true"
+              ></iframe>
+              <p>
+                Performing with
+                <a href="https://www.facebook.com/thepushandpull"
+                  >The Push and Pull</a
+                >
+              </p>
+              <p>
+                I like to get down.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of col 3 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end of container  -->
     <div class="jumbotron text-center" style="margin-bottom: 0;">
       <p>Footer</p>
     </div>

@@ -1,10 +1,8 @@
 * {
-  margin: auto;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.col-md-4 {
-  background-color: aliceblue;
-  text-align: center;
-  border-style: dashed;
-  border-width: 0.5px;
+#collapsibleNavbar {
+  float: right;
 }
