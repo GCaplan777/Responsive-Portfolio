@@ -1,0 +1,10 @@
+* {
+  margin: auto;
+}
+
+.col-md-4 {
+  background-color: aliceblue;
+  text-align: center;
+  border-style: dashed;
+  border-width: 0.5px;
+}
